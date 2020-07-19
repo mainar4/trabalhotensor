@@ -1,0 +1,49 @@
+body{
+    background-image: url("wallpaper.jpg");
+}
+
+.container {
+    text-align: center;
+    text-shadow: 1px 0px 0px black;
+    background-color:rgba(0, 0, 0, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+.btn {
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.btn:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+#webcam-container {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#label-container{
+    text-shadow: 1px 0px 0px black;
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+}
